@@ -4,7 +4,7 @@ T = int(input())
 dr = [1, -1, 0, 0]
 dc = [0, 0, 1, -1]
 
-# 점수 계산하는 함수수
+# 점수 계산하는 함수
 def cnt_balloon(tr, tc, balloon_list, N):
     global max_v, min_v
 
