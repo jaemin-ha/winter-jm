@@ -36,7 +36,7 @@ for tc in range(1, T+1):
     N = int(input())
     balloon_list = [list(map(int, input().split())) for _ in range(N)]
     
-    # 최대값, 최소값값
+    # 최대값, 최소값
     max_v = - float('inf')
     min_v = float('inf')
 
