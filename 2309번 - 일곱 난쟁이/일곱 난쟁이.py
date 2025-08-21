@@ -1,23 +1,15 @@
-#  **************************************************************************  #
-#                                                                              #
-#                                                       :::    :::    :::      #
-#    Problem Number: 2309                              :+:    :+:      :+:     #
-#                                                     +:+    +:+        +:+    #
-#    By: ktd562 <boj.kr/u/ktd562>                    +#+    +#+          +#+   #
-#                                                   +#+      +#+        +#+    #
-#    https://boj.kr/2309                           #+#        #+#      #+#     #
-#    Solved: 2025/08/21 16:49:47 by ktd562        ###          ###   ##.kr     #
-#                                                                              #
-#  **************************************************************************  #
 from itertools import combinations
 import sys
 input = sys.stdin.readline
+
+# 주어진 키 배열
 heights = []
 
 for _ in range(9):
     num = int(input())
     heights.append(num)
 
+# 조합 만들기
 candidates = list(combinations(heights, 7))
 
 for i in range(len(candidates)):
